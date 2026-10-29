@@ -1,4 +1,1 @@
-# app-ads.txt for Escapurr. AdMob checks this file.
-# After you make your AdMob account, AdMob shows the real line under
-# Apps -> View all apps -> app-ads.txt. Replace the line below with it.
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-5993944870818912, DIRECT, f08c47fec0942fa0
