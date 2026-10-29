@@ -49,6 +49,8 @@
   }
   h1 { color: var(--accent); font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
   h2 { color: var(--accent); font-size: 1.25rem; margin: 36px 0 8px; }
+  h3 { font-size: 1.05rem; margin: 20px 0 8px; }
+  ol { padding-left: 22px; margin: 0 0 10px; }
   p, li { margin: 0 0 10px; }
   ul { padding-left: 22px; margin: 0 0 10px; }
   a { color: var(--accent); }
@@ -84,6 +86,7 @@
   <li>The game uses <strong>Google Analytics for Firebase</strong> to learn how the game is played (for example which levels are too hard). It is not linked to your name or email.</li>
   <li>I don't sell your data.</li>
   <li>The game is for players aged <strong>13 and over</strong>.</li>
+  <li>You can delete your data at any time: see <a href="#delete-data">How to delete your data</a>.</li>
 </ul>
 </section>
 
@@ -155,15 +158,28 @@
 <h2>8. Children</h2>
 <p>Escapurr is meant for players aged 13 and over and is not directed at children under 13. I don't knowingly collect data from children under 13. If you are a parent and think your child under 13 used the game, write to me and I will help.</p>
 
-<h2>9. How long data is kept, and how to delete it</h2>
-<ul>
-  <li><strong>Your save</strong> stays on your phone until you delete it. To delete it, use <strong>Settings → Reset progress</strong> in the game, or uninstall the game. A purchase is kept by Google Play and comes back after a reset.</li>
-  <li><strong>Android backups</strong> can be managed or deleted in your Google account (Google Drive → Backups).</li>
-  <li><strong>Game statistics</strong> are deleted by Google after 14 months. Uninstalling the game ends the random ID, so new data is no longer linked to the old.</li>
-  <li><strong>Ad data</strong> is kept by Google under its own rules. You can manage it in your Google account (<a href="https://myadcenter.google.com/">My Ad Center</a>) and by resetting your advertising ID.</li>
-</ul>
-<p>I have no server and never get your name or email from the game. You can still write to me with any request about your data, for example to delete the game statistics of your phone, and I will answer within 30 days.</p>
-
+<h2 id="delete-data">9. How to delete your data</h2>
+<p>This section is for <strong>Escapurr</strong> by <strong>Vladyslav Chornyi</strong>. You can delete your data at any time, without deleting the game first.</p>
+<h3>Steps</h3>
+<ol>
+  <li><strong>Delete your game progress on the phone:</strong> in the game, open <strong>Settings → Reset progress</strong> and tap it twice. Or uninstall the game. Your progress, stars, hint paws and wardrobe items on the phone are deleted at once.</li>
+  <li><strong>Delete your cloud save</strong> (only if you use cloud save with Google Play Games): in the game, open <strong>Settings → Delete cloud save</strong>. The copy of your progress in your Play Games account is deleted at once. You can also delete your Play Games data in the Google Play Games settings.</li>
+  <li><strong>Ask me to delete your game statistics:</strong> write to <a href="mailto:chornogovlada@gmail.com?subject=Escapurr%20data%20deletion">chornogovlada@gmail.com</a> with the subject "Escapurr data deletion". I will delete the statistics of your phone in Firebase and answer within <strong>30 days</strong>.</li>
+  <li><strong>Stop ad data being linked to you:</strong> on Android, open <strong>Settings → Google → Ads</strong> and delete or reset your advertising ID. You can also manage ad data in <a href="https://myadcenter.google.com/">My Ad Center</a>.</li>
+  <li><strong>Delete Android backups</strong> (if backup is on): in your Google account, Google Drive → Backups.</li>
+</ol>
+<h3>What is deleted, what is kept, and for how long</h3>
+<div class="table-wrap">
+<table>
+  <tr><th>Data</th><th>Deleted</th><th>Kept</th></tr>
+  <tr><td>Game progress on the phone</td><td>At once (Reset progress or uninstall)</td><td>Nothing</td></tr>
+  <tr><td>Cloud save (Play Games)</td><td>At once (Delete cloud save)</td><td>Nothing</td></tr>
+  <tr><td>Game statistics (Firebase)</td><td>On request, within 30 days; otherwise automatically after <strong>14 months</strong></td><td>Only counts for all players together, with nothing that points to you</td></tr>
+  <tr><td>Ad data (Google AdMob)</td><td>Managed by Google: reset your advertising ID, or use My Ad Center</td><td>As described in Google's Privacy Policy</td></tr>
+  <tr><td>Purchases ("No ads + 100 hints")</td><td>—</td><td>Kept by <strong>Google Play</strong> (your proof of purchase), so it can come back on a new phone. Google keeps payment records as the law requires.</td></tr>
+</table>
+</div>
+<p>I have no server and never get your name or email from the game. If you write to me, I use your email only to answer you.</p>
 <h2>10. Security</h2>
 <p>Your save stays in the game's private storage on your phone, which other apps can't read. The Google services above send data over encrypted connections (HTTPS).</p>
 
